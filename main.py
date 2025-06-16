@@ -47,7 +47,7 @@ def contar_huecos(agujeros):
 
 def reconocer_jeroglifico(huecos):
     jeroglifico = ['W','A','K','J','S','D']
-    if ( huecos < 0 and huecos > 6) :
+    if ( huecos < 0 or huecos > 6) :
         return '?'
 
     return jeroglifico[huecos]
