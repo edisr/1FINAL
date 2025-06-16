@@ -1,3 +1,6 @@
+"""
+@author: Samuel Torres y Edis Fernandez
+"""
 import cv2
 import numpy as np
 from skimage.measure import label
